@@ -1,4 +1,4 @@
 FROM java:7
-COPY  . 
-Run .java
+COPY Greeter.java  . 
+Run Greeter.java
 CMD["java", "App]
